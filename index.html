@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <div class="container main-grid">
         <div class="item" id="first-box">
             <span class="page-description">Page dedicated to some of the most popular Japanese cars</span>
-            <div id="x-box">Japanese Cars</div>
+            <div id="index-x" usemap="#imagemap">
+                <map name="imagemap">
+                    <area shape="rect" coords="0,0,130,62" href="https://en.wikipedia.org/wiki/Japan">
+                    <area shape="rect" coords="134,0,212,62" href="https://en.wikipedia.org/wiki/Car">
+                </map>
+                <img src="./src/images/index_x.jpg" usemap="#imagemap"></div>
+
         </div>
         <div class="item" id="second-box">
             <span class="text">
@@ -26,6 +33,7 @@
         <div class="item" id="center">
             <div class="item" id="third-box">
                 <div class="pictures-grid">
+                    
                     <div class="left-top-cell"></div>
                     <div class="middle-top-cell"></div>
                     <div class="right-top-cell">
@@ -33,6 +41,9 @@
                     </div>
                     <div class="middle-row-cell">
                         <!-- test -->
+                        <map>
+                            <area shape="rect" coords="0,0,200,200" href="google.com"/>
+                        </map>
                         <img src="./src/images/mountains.jpg">
                     </div>
                     <div class="left-bottom-cell">
@@ -42,6 +53,7 @@
                     <div class="middle-bottom-cell"></div>
                     <div class="right-bottom-cell"></div>
                 </div>
+                <span class="pictures-description">PICTURES</span>
             </div>
             <div class="item" id="fifth-box">
                 <span class="text"> Japan is Home of the Largest Car Brands</span>
